@@ -1,0 +1,16 @@
+build/
+.build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+.swiftpm/
+Package.resolved
+.DS_Store
+# Local Claude Code working notes — not for the public repo
+/CLAUDE.md
+# build-icons.swift regenerates this from icon-master.png (or programmatic fallback)
+Resources/AppIcon.iconset/
+# Cloudflare worker — direnv loads creds from external file, don't commit
+.envrc
+cloudflare/node_modules/
+cloudflare/.wrangler/

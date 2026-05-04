@@ -27,7 +27,7 @@ final class DonateController {
         w.styleMask = [.titled, .closable, .fullSizeContentView]
         w.titlebarAppearsTransparent = true
         w.titleVisibility = .hidden
-        w.title = "Help Animals"
+        w.title = String(localized: "Help Animals")
         w.isMovableByWindowBackground = true
         // Seed roughly so the first center() lands close to the final position
         // before SwiftUI's intrinsic resize kicks in.

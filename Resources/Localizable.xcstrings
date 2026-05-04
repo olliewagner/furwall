@@ -1,0 +1,1011 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "About Furwall" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Über Furwall"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À propos de Furwall"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Furwallについて"
+          }
+        }
+      }
+    },
+    "About Furwall…" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Über Furwall…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À propos de Furwall…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Furwallについて…"
+          }
+        }
+      }
+    },
+    "Accessibility access required" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zugriff auf Bedienungshilfen erforderlich"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accès à l’accessibilité requis"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アクセシビリティ権限が必要"
+          }
+        }
+      }
+    },
+    "Alley Cat Allies" : {
+      "shouldTranslate" : false
+    },
+    "Backs Germany's largest network of animal shelters and cat rescues." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trägt Deutschlands größtes Netzwerk von Tierheimen und Katzenhilfen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soutient le plus grand réseau de refuges et de sauvetages félins en Allemagne."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ドイツ最大の動物保護施設・猫救護ネットワークを支える。"
+          }
+        }
+      }
+    },
+    "Blocks catasstrophes." : {
+      "comment" : "Tagline. Pun on cat + catastrophes. DE/FR have native portmanteau words (Katzastrophe, chatastrophe); JA has no equivalent so the pun is dropped for an idiomatic line that captures the protective spirit.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verhindert Katzastrophen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Évite les chatastrophes."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "猫のいたずらを未然に防ぎます。"
+          }
+        }
+      }
+    },
+    "Camera access required" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamerazugriff erforderlich"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accès à la caméra requis"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラアクセスが必要"
+          }
+        }
+      }
+    },
+    "Camera frames are processed entirely on your Mac with Apple’s Vision framework. Furwall never uploads, transmits, or stores video. Accessibility access is used solely to drop keystrokes when no human is present—keystrokes are never read, logged, or transmitted." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamerabilder werden vollständig auf Ihrem Mac mit Apples Vision-Framework verarbeitet. Furwall lädt, überträgt oder speichert niemals Videos. Der Zugriff auf Bedienungshilfen wird ausschließlich genutzt, um Tastatureingaben zu unterdrücken, wenn kein Mensch anwesend ist – Tastatureingaben werden niemals gelesen, protokolliert oder übertragen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les images de la caméra sont traitées entièrement sur votre Mac avec le framework Vision d’Apple. Furwall ne télécharge, ne transmet et ne stocke jamais de vidéo. L’accès à l’accessibilité sert uniquement à supprimer les frappes au clavier en l’absence d’un humain — les frappes ne sont jamais lues, enregistrées ni transmises."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラの映像はすべて、AppleのVisionフレームワークを使ってMac内で処理されます。Furwallが映像をアップロード、送信、保存することはありません。アクセシビリティ権限は、人がいないときにキー入力を抑制する目的のみに使用されます。キー入力が読み取られたり、記録されたり、送信されることはありません。"
+          }
+        }
+      }
+    },
+    "Cat Protection Society of NSW" : {
+      "shouldTranslate" : false
+    },
+    "Cats Protection" : {
+      "shouldTranslate" : false
+    },
+    "Check for Updates…" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nach Updates suchen…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher les mises à jour…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデートを確認…"
+          }
+        }
+      }
+    },
+    "Close" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schließen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fermer"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "閉じる"
+          }
+        }
+      }
+    },
+    "Deutscher Tierschutzbund" : {
+      "shouldTranslate" : false
+    },
+    "Donate" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spenden"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Faire un don"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "寄付する"
+          }
+        }
+      }
+    },
+    "Donate to Help Animals…" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tieren spenden…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Faire un don pour les animaux…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "動物を助けるために寄付…"
+          }
+        }
+      }
+    },
+    "Five Escapes detected. Keyboard unlocked for 5 minutes." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fünfmal Escape erkannt. Tastatur für 5 Minuten entsperrt."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cinq pressions sur Échap détectées. Clavier déverrouillé pendant 5 minutes."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escapeキーが5回押されました。キーボードを5分間ロック解除します。"
+          }
+        }
+      }
+    },
+    "Fondation 30 Millions d'Amis" : {
+      "shouldTranslate" : false
+    },
+    "Funds free spay/neuter for stray cats across Japan." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finanziert kostenlose Sterilisation für Streunerkatzen in ganz Japan."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finance la stérilisation gratuite des chats errants partout au Japon."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "日本各地で野良猫の不妊・去勢手術を支援しています。"
+          }
+        }
+      }
+    },
+    "Funds spay/neuter access and veterinary care." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finanziert Sterilisationsangebote und Tierarztbetreuung."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finance l’accès à la stérilisation et aux soins vétérinaires."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "避妊・去勢手術と獣医療へのアクセスを支援。"
+          }
+        }
+      }
+    },
+    "Furwall" : {
+      "shouldTranslate" : false
+    },
+    "Furwall Paused" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Furwall pausiert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Furwall en pause"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Furwall一時停止中"
+          }
+        }
+      }
+    },
+    "Furwall is free, open source software under the [MIT License](furwall://license). It comes with no warranty of any kind, express or implied. Use at your own risk." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Furwall ist freie Open-Source-Software unter der [MIT-Lizenz](furwall://license). Sie wird ohne jegliche Gewährleistung bereitgestellt, weder ausdrücklich noch stillschweigend. Die Nutzung erfolgt auf eigenes Risiko."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Furwall est un logiciel libre et open source sous [licence MIT](furwall://license). Il est fourni sans aucune garantie, expresse ou implicite. À utiliser à vos risques et périls."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Furwallは [MITライセンス](furwall://license) に基づくフリーのオープンソースソフトウェアです。明示的か黙示的かを問わず、いかなる保証もありません。自己責任でご使用ください。"
+          }
+        }
+      }
+    },
+    "Furwall opens each charity's donate page directly. Your contribution goes straight to them — Furwall never handles money." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Furwall öffnet die Spendenseite jeder Organisation direkt. Ihre Spende geht direkt an die Organisation – Furwall verwaltet niemals Geld."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Furwall ouvre directement la page de don de chaque association. Votre contribution leur est versée directement — Furwall ne gère jamais d’argent."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Furwallは各団体の寄付ページを直接開きます。あなたの寄付は団体に直接届きます。Furwallが寄付金を扱うことはありません。"
+          }
+        }
+      }
+    },
+    "Furwall opens each charity’s donate page in your browser. Money flows from you to the charity. Furwall never handles funds and receives no portion of any donation." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Furwall öffnet die Spendenseite jeder Organisation in Ihrem Browser. Das Geld fließt direkt von Ihnen an die Organisation. Furwall verwaltet keine Mittel und erhält keinen Anteil an Spenden."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Furwall ouvre la page de don de chaque association dans votre navigateur. L’argent circule directement de vous à l’association. Furwall ne gère aucun fonds et ne reçoit aucune part des dons."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Furwallは各団体の寄付ページをブラウザで開きます。お金はあなたから団体へ直接渡ります。Furwallが資金を扱ったり、寄付の一部を受け取ったりすることはありません。"
+          }
+        }
+      }
+    },
+    "Help Animals" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tieren helfen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aider les animaux"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "動物を助ける"
+          }
+        }
+      }
+    },
+    "Japan SPCA" : {
+      "comment" : "Charity name. JA users see the kanji form; DE/FR fall back to the English short name.",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "日本動物愛護協会"
+          }
+        }
+      }
+    },
+    "La SPA" : {
+      "shouldTranslate" : false
+    },
+    "Lobbies for animal-welfare law and funds community-cat sterilization." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setzt sich für Tierschutzgesetze ein und finanziert die Sterilisation freilebender Katzen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Défend la cause animale et finance la stérilisation des chats libres."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "動物福祉法の改正運動と地域猫の不妊・去勢手術を支援。"
+          }
+        }
+      }
+    },
+    "MIT License" : {
+      "shouldTranslate" : false
+    },
+    "National SPCA" : {
+      "shouldTranslate" : false
+    },
+    "No cats blocked today" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heute keine Katzen blockiert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun chat bloqué aujourd’hui"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日はブロックされた猫はいません"
+          }
+        }
+      }
+    },
+    "Open Accessibility Settings…" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bedienungshilfen-Einstellungen öffnen…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvrir les réglages d’accessibilité…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アクセシビリティ設定を開く…"
+          }
+        }
+      }
+    },
+    "Open Camera Settings…" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera-Einstellungen öffnen…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvrir les réglages de la caméra…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラ設定を開く…"
+          }
+        }
+      }
+    },
+    "Open at Login" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beim Anmelden öffnen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvrir à l’ouverture de session"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ログイン時に開く"
+          }
+        }
+      }
+    },
+    "PetSmart Charities" : {
+      "shouldTranslate" : false
+    },
+    "Protects community cats through trap-neuter-return." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schützt freilebende Katzen durch Einfangen, Kastrieren und Freilassen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protège les chats des rues par le piégeage, la stérilisation et le relâchement."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TNR(トラップ・避妊去勢・リターン)で地域猫を守ります。"
+          }
+        }
+      }
+    },
+    "Quit Furwall" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Furwall beenden"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quitter Furwall"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Furwallを終了"
+          }
+        }
+      }
+    },
+    "Rehomes homeless cats and kittens across Sydney." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vermittelt herrenlose Katzen und Kätzchen im Großraum Sydney."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Replace les chats et chatons sans foyer dans toute la région de Sydney."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "シドニーの保護猫と子猫の里親探しを行います。"
+          }
+        }
+      }
+    },
+    "Rescues abandoned, sick, and injured cats across the GTA." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rettet ausgesetzte, kranke und verletzte Katzen im Großraum Toronto."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sauve les chats abandonnés, malades et blessés dans la région du Grand Toronto."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "グレーター・トロント圏で遺棄・病気・負傷した猫を救助。"
+          }
+        }
+      }
+    },
+    "Rescues, rehabilitates, and rehomes Ireland's neglected animals nationwide." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rettet, rehabilitiert und vermittelt vernachlässigte Tiere in ganz Irland."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sauve, soigne et replace les animaux négligés dans toute l’Irlande."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アイルランド全土で遺棄・虐待された動物を救助・リハビリ・里親探し。"
+          }
+        }
+      }
+    },
+    "Rescues, rehabilitates, and rehomes cats across New Zealand." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rettet, rehabilitiert und vermittelt Katzen in ganz Neuseeland."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sauve, soigne et replace les chats dans toute la Nouvelle-Zélande."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ニュージーランド全土で猫を救助・リハビリ・里親探し。"
+          }
+        }
+      }
+    },
+    "Rescues, rehomes, and protects cats across the UK." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rettet, vermittelt und schützt Katzen im Vereinigten Königreich."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sauve, replace et protège les chats partout au Royaume-Uni."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "英国全土で猫を救助・里親探し・保護しています。"
+          }
+        }
+      }
+    },
+    "Resume" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsetzen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reprendre"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "再開"
+          }
+        }
+      }
+    },
+    "Reveal Catpures" : {
+      "comment" : "Reveals the ~/.furwall/catpures/ folder in Finder. The English label preserves the cat+capture pun; non-English forms drop the pun for clarity.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aufnahmen anzeigen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afficher les captures"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャプチャを表示"
+          }
+        }
+      }
+    },
+    "Runs France's national network of cat and dog refuges." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Betreibt Frankreichs nationales Netzwerk von Katzen- und Hundeheimen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gère le réseau national de refuges français pour chats et chiens."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フランス全国の犬猫保護施設ネットワークを運営。"
+          }
+        }
+      }
+    },
+    "SPCA New Zealand" : {
+      "shouldTranslate" : false
+    },
+    "Start Watching" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Überwachung starten"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Démarrer la surveillance"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "監視を開始"
+          }
+        }
+      }
+    },
+    "Three ways out: glance at the camera, quit from the menu bar, or tap Escape five times." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drei Wege raus: in die Kamera schauen, aus der Menüleiste beenden oder fünfmal Escape drücken."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trois sorties possibles : regardez la caméra, quittez depuis la barre des menus ou appuyez cinq fois sur Échap."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "解除方法は3つ:カメラを見る、メニューバーから終了する、Escapeキーを5回押す。"
+          }
+        }
+      }
+    },
+    "Together, Furwall users have opened ^[%lld donation page](inflect: true)." : {
+      "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Gemeinsam haben Furwall-Nutzer %lld Spendenseite geöffnet."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Gemeinsam haben Furwall-Nutzer %lld Spendenseiten geöffnet."
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ensemble, les utilisateurs de Furwall ont ouvert %lld page de dons."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ensemble, les utilisateurs de Furwall ont ouvert %lld pages de dons."
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Furwallユーザー全員で %lld 件の寄付ページを開きました。"
+          }
+        }
+      }
+    },
+    "Toronto Cat Rescue" : {
+      "shouldTranslate" : false
+    },
+    "Version %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バージョン %@"
+          }
+        }
+      }
+    },
+    "Welcome to Furwall" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Willkommen bei Furwall"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bienvenue dans Furwall"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Furwallへようこそ"
+          }
+        }
+      }
+    },
+    "When you open a charity page, Furwall increments a global click count so the community can see total impact. Only the charity’s name is sent—no IP retention, no identifiers, no tracking." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wenn Sie eine Spendenseite öffnen, zählt Furwall die Klicks weltweit, damit die Gemeinschaft die Gesamtwirkung sehen kann. Übermittelt wird nur der Name der Organisation – keine IP-Adressen, keine Identifikatoren, kein Tracking."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lorsque vous ouvrez une page de don, Furwall incrémente un compteur global de clics afin que la communauté puisse voir l’impact total. Seul le nom de l’association est envoyé — aucune adresse IP n’est conservée, aucun identifiant, aucun suivi."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "寄付ページを開くと、Furwallはコミュニティ全体の影響が見えるようにグローバルなクリック数を増やします。送信されるのは団体名のみで、IPアドレスの保存、識別子、トラッキングは一切ありません。"
+          }
+        }
+      }
+    },
+    "^[%lld cat](inflect: true) blocked today" : {
+      "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Heute %lld Katze blockiert"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Heute %lld Katzen blockiert"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld chat bloqué aujourd’hui"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld chats bloqués aujourd’hui"
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日%lld匹の猫をブロックしました"
+          }
+        }
+      }
+    },
+    "olliewagner.com/furwall" : {
+      "shouldTranslate" : false
+    },
+    "© 2026 Ollie Wagner" : {
+      "shouldTranslate" : false
+    }
+  },
+  "version" : "1.0"
+}

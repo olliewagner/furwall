@@ -21,9 +21,8 @@ final class RemoteStats: ObservableObject {
 
     /// Optimistically bump the global count locally so the UI animates the
     /// roll-up immediately on click — no waiting for the network round trip.
-    /// The next `refresh()` reconciles with the authoritative remote count
-    /// (KV is eventually consistent up to ~60s, so we'd otherwise show a
-    /// stale number for that whole window).
+    /// `refresh()` is monotonic-up (see below), so the bumped value sticks
+    /// until the remote count catches up rather than snapping backward.
     func optimisticBump() {
         if let current = globalTotal {
             globalTotal = current + 1
@@ -47,7 +46,12 @@ final class RemoteStats: ObservableObject {
                 return
             }
             let decoded = try JSONDecoder().decode(Totals.self, from: data)
-            globalTotal = decoded.total
+            // Monotonic-up: the global counter only ever increments, so a
+            // remote value lower than what we already show is stale (HTTP
+            // max-age cache + KV eventual consistency, both ~60s). Keep the
+            // higher value so an optimistic bump doesn't snap backward when
+            // the donate panel is reopened inside that window.
+            globalTotal = max(decoded.total, globalTotal ?? decoded.total)
         } catch {
             globalTotal = nil
         }

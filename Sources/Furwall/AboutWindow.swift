@@ -29,7 +29,7 @@ final class AboutController {
         w.styleMask = [.titled, .closable, .fullSizeContentView]
         w.titlebarAppearsTransparent = true
         w.titleVisibility = .hidden
-        w.title = "About Furwall"
+        w.title = String(localized: "About Furwall")
         w.isMovableByWindowBackground = true
         // Seed roughly so the first center() lands close to the final position
         // before SwiftUI's intrinsic resize kicks in.

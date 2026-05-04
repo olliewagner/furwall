@@ -55,7 +55,7 @@ final class OnboardingController {
         w.styleMask = [.titled, .closable, .fullSizeContentView]
         w.titlebarAppearsTransparent = true
         w.titleVisibility = .hidden
-        w.title = "Welcome to Furwall"
+        w.title = String(localized: "Welcome to Furwall")
         w.isMovableByWindowBackground = true
         // Seed the window with a size close to the SwiftUI body's natural
         // size so the first center() lands in roughly the right spot — keeps

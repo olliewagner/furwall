@@ -415,8 +415,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     /// notification permission hasn't been granted.
     private func notifyPanic() {
         let content = UNMutableNotificationContent()
-        content.title = "Furwall Paused"
-        content.body = "Five Escapes detected. Keyboard unlocked for 5 minutes."
+        content.title = String(localized: "Furwall Paused")
+        content.body = String(localized: "Five Escapes detected. Keyboard unlocked for 5 minutes.")
         let req = UNNotificationRequest(
             identifier: "furwall.panic.\(Date().timeIntervalSince1970)",
             content: content,

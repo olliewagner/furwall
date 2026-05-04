@@ -14,7 +14,7 @@ When it blocks, it saves a JPEG of the purrpetrator. We call those *catpures*.
 - Apple’s Vision framework runs face + upper-body detection locally. **No frames ever leave your Mac.**
 - A `CGEventTap` at the head of the keyboard event stream drops keystrokes when no human is present. Mouse events are never tapped, so you can always reach the menu bar to pause or quit.
 
-The one network call: when you click **Donate**, Furwall opens the charity’s page and increments an anonymous global click count. The body is one short slug — `alleycat` or `petsmart` — no user identifiers, cookies, or analytics. The Worker source and KV setup are in [`cloudflare/`](cloudflare/).
+The one network call: when you click **Donate**, Furwall opens the charity’s page and increments an anonymous global click count. The body is one short slug — the charity ID, like `alleycat` or `cats-protection` — no user identifiers, cookies, or analytics.
 
 ## Install
 
@@ -64,7 +64,7 @@ The menu bar icon is the canonical lock/unlock indicator—orange cat-with-slash
 - **Reveal Catpures**—opens `~/.furwall/catpures/` in Finder.
 - **Resume**—only appears when the Escape-mash auto-pause is active.
 - **Open at Login**—toggle.
-- **Donate to Help Animals…**—picker for two animal-welfare charities (as of this writing: 4-star Charity Navigator, ≥85% to programs, public Candid Platinum/Gold seal, evergreen donate URLs); opens each org’s own page in your browser.
+- **Donate to Help Animals…**—picker for vetted animal-welfare charities, chosen per your system Region (US, UK, AU, CA, IE, NZ, DE, FR, JP). Each org is registered with its national charity authority and re-vetted on every release. Opens the org’s own donate page in your browser.
 - **About Furwall…** and **Quit Furwall**.
 
 ## False positives

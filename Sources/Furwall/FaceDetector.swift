@@ -125,6 +125,15 @@ final class FaceDetector {
         }
     }
 
+    /// Force the camera off NOW, ignoring the idle-timeout window. Used when
+    /// the screen locks — we want the green dot off immediately rather than
+    /// waiting out the 30s idle timer.
+    func forceShutdown() {
+        idleTimer?.invalidate()
+        idleTimer = nil
+        powerDown()
+    }
+
     /// Vision face-rectangles request — we don't need landmarks, just "is there a face."
     private let faceRequest: VNDetectFaceRectanglesRequest = {
         let r = VNDetectFaceRectanglesRequest()

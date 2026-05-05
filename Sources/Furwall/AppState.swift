@@ -11,6 +11,12 @@ final class AppState: ObservableObject {
     /// Manual user pause — "let me type without checking for N minutes."
     @Published var pausedUntil: Date?
 
+    /// Screen is currently locked. While locked, Furwall steps out of the way
+    /// entirely — the lock screen has its own input gate, and watching the
+    /// camera is both pointless and privacy-bad. Toggled by the
+    /// com.apple.screenIsLocked / IsUnlocked distributed notifications.
+    @Published var screenLocked: Bool = false
+
     /// True while the camera is actively powered on (drives the green dot).
     /// The detector publishes this so the menu can show a subtle "watching" indicator.
     @Published var cameraActive: Bool = false
@@ -83,6 +89,7 @@ final class AppState: ObservableObject {
 
     /// Resolved gate decision: should the next keystroke pass through?
     var shouldAllowInput: Bool {
+        if screenLocked { return true }
         if let until = pausedUntil, until > Date() { return true }
 
         // Recent face → pass.

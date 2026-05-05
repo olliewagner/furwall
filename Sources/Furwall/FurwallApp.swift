@@ -281,11 +281,11 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
                 guard let self = self else { return }
                 Task { @MainActor in
                     self.handleBlock()
-                    self.faceDetector?.poke()
+                    self.prewarmCamera()
                 }
             },
             onPass: { [weak self] in
-                Task { @MainActor in self?.faceDetector?.poke() }
+                Task { @MainActor in self?.prewarmCamera() }
             },
             onPanic: { [weak self] in
                 Task { @MainActor in
@@ -371,26 +371,48 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     /// Wake-the-camera-early hooks. The point is to have the camera producing
     /// frames *before* the user's first keystroke, so cold-start latency hits
     /// only the most adversarial path (return-and-immediately-type-without-mouse).
+    /// Single chokepoint for waking the camera. While `state.screenLocked` is
+    /// true we want Furwall completely out of the way — no green dot, no
+    /// keystroke gating — so every prewarm path routes through here so the
+    /// lock state can short-circuit them in one place.
+    private func prewarmCamera() {
+        guard !state.screenLocked else { return }
+        faceDetector?.poke()
+    }
+
     private func installPrewarmHooks() {
         let nc = NSWorkspace.shared.notificationCenter
 
         // System resumed from sleep.
         nc.addObserver(forName: NSWorkspace.didWakeNotification, object: nil, queue: .main) { [weak self] _ in
-            self?.faceDetector?.poke()
+            self?.prewarmCamera()
         }
         // Display turned on (lid open, monitor woke).
         nc.addObserver(forName: NSWorkspace.screensDidWakeNotification, object: nil, queue: .main) { [weak self] _ in
-            self?.faceDetector?.poke()
+            self?.prewarmCamera()
         }
         // User session became active (login, fast-user-switch back to us).
         nc.addObserver(forName: NSWorkspace.sessionDidBecomeActiveNotification, object: nil, queue: .main) { [weak self] _ in
-            self?.faceDetector?.poke()
+            self?.prewarmCamera()
         }
         // Frontmost app changed — user just switched apps and is often about
         // to type. Cheap signal, gets the camera spinning before the first
         // keystroke arrives. Doesn't fire on intra-app focus changes.
         nc.addObserver(forName: NSWorkspace.didActivateApplicationNotification, object: nil, queue: .main) { [weak self] _ in
-            self?.faceDetector?.poke()
+            self?.prewarmCamera()
+        }
+        // Lock-screen entry. While locked, Furwall steps out of the way: the
+        // lock screen has its own input gate, and there's no reason for the
+        // green dot to stay lit. Force the camera down immediately and flip
+        // the gate to pass-through.
+        DistributedNotificationCenter.default().addObserver(
+            forName: NSNotification.Name("com.apple.screenIsLocked"),
+            object: nil,
+            queue: .main
+        ) { [weak self] _ in
+            guard let self = self else { return }
+            self.state.screenLocked = true
+            self.faceDetector?.forceShutdown()
         }
         // Lock-screen exit. `sessionDidBecomeActiveNotification` doesn't always
         // fire on a plain unlock (no fast-user-switch); the distributed
@@ -401,7 +423,9 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             object: nil,
             queue: .main
         ) { [weak self] _ in
-            self?.faceDetector?.poke()
+            guard let self = self else { return }
+            self.state.screenLocked = false
+            self.prewarmCamera()
         }
 
         // Global mouse monitor: any motion or click pokes the camera. Movement
@@ -423,7 +447,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             let now = CACurrentMediaTime()
             guard now - self.lastPokeAt > 1.0 else { return }
             self.lastPokeAt = now
-            self.faceDetector?.poke()
+            self.prewarmCamera()
         }
     }
 

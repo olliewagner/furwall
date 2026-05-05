@@ -392,15 +392,32 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         nc.addObserver(forName: NSWorkspace.didActivateApplicationNotification, object: nil, queue: .main) { [weak self] _ in
             self?.faceDetector?.poke()
         }
+        // Lock-screen exit. `sessionDidBecomeActiveNotification` doesn't always
+        // fire on a plain unlock (no fast-user-switch); the distributed
+        // `com.apple.screenIsUnlocked` notification does, and it's about as
+        // strong a "user authenticated and is about to type" signal as we get.
+        DistributedNotificationCenter.default().addObserver(
+            forName: NSNotification.Name("com.apple.screenIsUnlocked"),
+            object: nil,
+            queue: .main
+        ) { [weak self] _ in
+            self?.faceDetector?.poke()
+        }
 
         // Global mouse monitor: any motion or click pokes the camera. Movement
         // is the most reliable "user is back" signal — the user often nudges the
         // mouse before they type, with no click. Throttled to 1 Hz so we don't
         // burn cycles on every 60-120 Hz mouse delta.
+        //
+        // Scroll wheel + trackpad gestures cover the "came back, started reading
+        // before typing" path — without them, a user who scrolls but doesn't
+        // click or move the cursor first eats the cold-start grace.
         NSEvent.addGlobalMonitorForEvents(matching: [
             .mouseMoved,
             .leftMouseDown, .rightMouseDown, .otherMouseDown,
             .leftMouseDragged, .rightMouseDragged,
+            .scrollWheel,
+            .magnify, .swipe, .rotate, .beginGesture,
         ]) { [weak self] _ in
             guard let self = self else { return }
             let now = CACurrentMediaTime()
